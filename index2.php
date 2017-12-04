@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-	<title>Collapsible sidebar using Bootstrap 3</title>
+	<title>Search or Advertise services near the city of Toronto - Helpaid</title>
 
 	<!-- Bootstrap CSS CDN -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -53,21 +53,13 @@
 			<div class="container-fluid">
 
 				<div class="navbar-header">
-					<button type="button" id="sidebarCollapse" class="navbar-btn">
-						<span></span>
-						<span></span>
-						<span></span>
-					</button>
-				</div>
-
-				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<h1><a class="navbar-brand" href="#">HELPAID</a></h1>
+					<h1 class="heading"><a class="navbar-brand" href="#">HELPAID</a></h1>
 				</div>
 
 				<div id="navbar" class="navbar-collapse collapse">
@@ -82,20 +74,55 @@
 					</form>
 				</div>
 
-				<!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#">Post Ad</a></li>
-						<li><a href="#">Register</a></li>
-						<li><a href="#">Login</a></li>
-						<li><a href="#">Help</a></li>
-					</ul>
-				</div>-->
 			</div>
 		</nav>
 
+		<div class="row-fluid bg-primary text-white text-center" id="sidebarCollapse"><a href="javascript:;" class="navbar-btn">Service Categories</a></div>
+
 		<h2 class="sub-header">Recent Ads</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<div class="row-fluid">
+			<div class="col-md-12">
+				<div class="row">
+					<div class="col-md-8 col-xs-12">
+						<a class="text-primary" href="/service/i-paint-old-houses" title="Interior Houses ONnly
+
+		The Leslieville House Pai">I Paint Old Houses</a>
+					</div>
+					<div class="col-md-2 col-xs-6">
+						<span class="distance text-warning" title="Distance"> &lt; 5 kms</span>
+					</div>
+					<div class="col-md-2 col-xs-6">
+						<time class="text-success" title="Posted on November 26, 2017 01:21:55" datetime="2017-11-26T13:21:55-05:00">1 week ago</time>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-xs-12">
+						<a class="text-primary" href="/service/i-paint-old-houses" title="Interior Houses ONnly
+
+		The Leslieville House Pai">I Paint Old Houses</a>
+					</div>
+					<div class="col-md-2 col-xs-6">
+						<span class="distance text-warning" title="Distance"> &lt; 5 kms</span>
+					</div>
+					<div class="col-md-2 col-xs-6">
+						<time class="text-success" title="Posted on November 26, 2017 01:21:55" datetime="2017-11-26T13:21:55-05:00">1 week ago</time>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-xs-12">
+						<a class="text-primary" href="/service/i-paint-old-houses" title="Interior Houses ONnly
+
+		The Leslieville House Pai">I Paint Old Houses</a>
+					</div>
+					<div class="col-md-2 col-xs-6">
+						<span class="distance text-warning" title="Distance"> &lt; 5 kms</span>
+					</div>
+					<div class="col-md-2 col-xs-6">
+						<time class="text-success" title="Posted on November 26, 2017 01:21:55" datetime="2017-11-26T13:21:55-05:00">1 week ago</time>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<div class="line"></div>
 
@@ -114,9 +141,7 @@
 	</div>
 </div>
 
-
-
-
+<div id="fade" class="hide"></div>
 
 <!-- jQuery CDN -->
 <script src="js/jquery.min.js"></script>
@@ -128,7 +153,13 @@
 		$('#sidebarCollapse').on('click', function () {
 			$('#sidebar').toggleClass('active');
 			$(this).toggleClass('active');
+			$("#fade").toggleClass('hide');
 		});
+		$("#fade").click(function() {
+			$('#sidebar').toggleClass('active');
+			$(this).toggleClass('active');
+			$("#fade").toggleClass('hide');
+		})
 	});
 </script>
 </body>
