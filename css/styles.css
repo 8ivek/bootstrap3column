@@ -169,7 +169,7 @@ h1.heading {
 	width: 110vw;
 	height: 110vh;
 	background-color: rgba(0,0,0,.5);
-	z-index: 99;
+	z-index: 1;
 	cursor: pointer;
 	transition: all .4s ease-in-out;
 }
@@ -179,13 +179,11 @@ h1.heading {
     MEDIAQUERIES
 ----------------------------------------------------- */
 @media (max-width: 768px) {
+
 	#sidebar {
 		margin-left: -250px;
 		transform: rotateY(90deg);
-		z-index:100;
-	}
-	.wrapper{
-		z-index: 101;
+		z-index:10;
 	}
 	#sidebar.active {
 		margin-left: 0;
