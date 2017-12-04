@@ -25,24 +25,16 @@
 		</div>
 
 		<ul class="list-unstyled components">
-			<li class="active"><a class="" href="childcare-nanny" title="Everything related to Childcare &amp; Nanny">Childcare &amp; Nanny (0)</a></li>
-			<li><a class="" href="classes-music-lessons" title="Everything related to Classes - Music Lessons">Classes - Music Lessons (0)</a></li>
-			<li><a class="" href="clearners-cleaning" title="Everything related to Cleaners &amp; Cleaning">Cleaners &amp; Cleaning(0)</a></li>
-			<li><a class="" href="coaching-tutors-languages" title="Everything related to Coaching, Tutors &amp; Languages">Coaching, Tutors &amp; Languages (0)</a></li>
-			<li><a class="" href="computer-website-design-development" title="Everything related to Computer - Website, Design &amp; Development">Computer - Website, Design &amp; Development (1)</a></li>
-			<li><a class="" href="computer-cellphone-mobile-sales-repair" title="Everything related to Computer - Sales &amp; Repairs">Computer, Cellphone &amp; Mobile - Sales &amp; Repair (0)</a></li>
-			<li><a class="" href="courses-education-training" title="Everyting related to Courses - Education &amp; Training">Courses - Education &amp; Training (0)</a></li>
-			<li><a class="" href="electronics-repair" title="Everyting related to Electronics Repair">Electronics Repair (0)</a></li>
-			<li><a class="" href="electronics-repair" title="Everyting related to Electronics Repair">Electronics Repair (0)</a></li>
-			<li><a class="" href="electronics-repair" title="Everyting related to Electronics Repair">Electronics Repair (0)</a></li>
-			<li><a class="" href="electronics-repair" title="Everyting related to Electronics Repair">Electronics Repair (0)</a></li>
-			<li><a class="" href="electronics-repair" title="Everyting related to Electronics Repair">Electronics Repair (0)</a></li>
-			<li><a class="" href="electronics-repair" title="Everyting related to Electronics Repair">Electronics Repair (0)</a></li>
-			<li><a class="" href="electronics-repair" title="Everyting related to Electronics Repair">Electronics Repair (0)</a></li>
-			<li><a class="" href="electronics-repair" title="Everyting related to Electronics Repair">Electronics Repair (0)</a></li>
-			<li><a class="" href="electronics-repair" title="Everyting related to Electronics Repair">Electronics Repair (0)</a></li>
-			<li><a class="" href="electronics-repair" title="Everyting related to Electronics Repair">Electronics Repair (0)</a></li>
-			<li><a class="" href="electronics-repair" title="Everyting related to Electronics Repair">Electronics Repair (0)</a></li>
+			<li class="active"><a class="" href="/childcare-nanny" title="Everything related to Childcare &amp; Nanny">Childcare &amp; Nanny (0)</a></li>
+			<li><a class="" href="/classes-music-lessons" title="Everything related to Classes - Music Lessons">Classes - Music Lessons (0)</a></li>
+			<li><a class="" href="/clearners-cleaning" title="Everything related to Cleaners &amp; Cleaning">Cleaners &amp; Cleaning(0)</a></li>
+			<li><a class="" href="/coaching-tutors-languages" title="Everything related to Coaching, Tutors &amp; Languages">Coaching, Tutors &amp; Languages (0)</a></li>
+			<li><a class="" href="/computer-website-design-development" title="Everything related to Computer - Website, Design &amp; Development">Computer - Website, Design &amp; Development (1)</a></li>
+			<li><a class="" href="/computer-cellphone-mobile-sales-repair" title="Everything related to Computer - Sales &amp; Repairs">Computer, Cellphone &amp; Mobile - Sales &amp; Repair (0)</a></li>
+			<li><a class="" href="/courses-education-training" title="Everyting related to Courses - Education &amp; Training">Courses - Education &amp; Training (0)</a></li>
+			<li><a class="" href="/electronics-repair" title="Everyting related to Electronics Repair">Electronics Repair (0)</a></li>
+			<li><a class="" href="/electronics-repair" title="Everyting related to Electronics Repair">Electronics Repair (0)</a></li>
+			<li><a class="" href="/electronics-repair" title="Everyting related to Electronics Repair">Electronics Repair (0)</a></li>
 		</ul>
 	</nav>
 
@@ -175,6 +167,8 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="line"></div>
 
 	</div>
 
