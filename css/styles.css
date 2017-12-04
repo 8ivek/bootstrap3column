@@ -38,6 +38,12 @@ a, a:hover, a:focus {
 	margin: 40px 0;
 }
 
+a.ad-container{
+	border-radius:4px;
+	margin-bottom:5px;
+	border:1px dashed #eeeeee;
+}
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */

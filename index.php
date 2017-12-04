@@ -78,46 +78,24 @@
 
 		<h2 class="sub-header">Recent Ads</h2>
 		<div class="row-fluid clearfix">
-			<div class="col-md-12">
-				<div class="row">
-					<div class="col-md-8 col-xs-12">
-						<a class="text-primary" href="/service/i-paint-old-houses" title="Interior Houses ONnly
-
-		The Leslieville House Pai">I Paint Old Houses</a>
-					</div>
-					<div class="col-md-2 col-xs-6">
-						<span class="distance text-warning" title="Distance"> &lt; 5 kms</span>
-					</div>
-					<div class="col-md-2 col-xs-6">
-						<time class="text-success" title="Posted on November 26, 2017 01:21:55" datetime="2017-11-26T13:21:55-05:00">1 week ago</time>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-8 col-xs-12">
-						<a class="text-primary" href="/service/i-paint-old-houses" title="Interior Houses ONnly
-
-		The Leslieville House Pai">I Paint Old Houses</a>
-					</div>
-					<div class="col-md-2 col-xs-6">
-						<span class="distance text-warning" title="Distance"> &lt; 5 kms</span>
-					</div>
-					<div class="col-md-2 col-xs-6">
-						<time class="text-success" title="Posted on November 26, 2017 01:21:55" datetime="2017-11-26T13:21:55-05:00">1 week ago</time>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-8 col-xs-12">
-						<a class="text-primary" href="/service/i-paint-old-houses" title="Interior Houses ONnly
-
-		The Leslieville House Pai">I Paint Old Houses</a>
-					</div>
-					<div class="col-md-2 col-xs-6">
-						<span class="distance text-warning" title="Distance"> &lt; 5 kms</span>
-					</div>
-					<div class="col-md-2 col-xs-6">
-						<time class="text-success" title="Posted on November 26, 2017 01:21:55" datetime="2017-11-26T13:21:55-05:00">1 week ago</time>
-					</div>
-				</div>
+			<div class="col-md-12 list-group">
+				<?php
+				for($i=0;$i<=5;$i++){
+					?>
+					<a class="list-group-item ad-container" href="#"><div class="row">
+							<div class="col-md-8 col-xs-12">
+								<span class="text-primary lead" href="/service/i-paint-old-houses" title="Interior Houses Only The Leslieville House Pai">I Paint Old Houses</span>
+							</div>
+							<div class="col-md-2 col-xs-6">
+								<span class="badge text-danger" title="Distance"> &lt; 5 kms</span>
+							</div>
+							<div class="col-md-2 col-xs-6">
+								<time class="text-muted badge" title="Posted on November 26, 2017 01:21:55" datetime="2017-11-26T13:21:55-05:00">1 week ago</time>
+							</div>
+						</div></a>
+					<?php
+				}
+				?>
 			</div>
 		</div>
 
@@ -125,46 +103,24 @@
 
 		<h2 class="sub-header">Featured Ads</h2>
 		<div class="row-fluid clearfix">
-			<div class="col-md-12">
-				<div class="row">
-					<div class="col-md-8 col-xs-12">
-						<a class="text-primary" href="/service/i-paint-old-houses" title="Interior Houses ONnly
-
-		The Leslieville House Pai">I Paint Old Houses</a>
-					</div>
-					<div class="col-md-2 col-xs-6">
-						<span class="distance text-warning" title="Distance"> &lt; 5 kms</span>
-					</div>
-					<div class="col-md-2 col-xs-6">
-						<time class="text-success" title="Posted on November 26, 2017 01:21:55" datetime="2017-11-26T13:21:55-05:00">1 week ago</time>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-8 col-xs-12">
-						<a class="text-primary" href="/service/i-paint-old-houses" title="Interior Houses ONnly
-
-		The Leslieville House Pai">I Paint Old Houses</a>
-					</div>
-					<div class="col-md-2 col-xs-6">
-						<span class="distance text-warning" title="Distance"> &lt; 5 kms</span>
-					</div>
-					<div class="col-md-2 col-xs-6">
-						<time class="text-success" title="Posted on November 26, 2017 01:21:55" datetime="2017-11-26T13:21:55-05:00">1 week ago</time>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-8 col-xs-12">
-						<a class="text-primary" href="/service/i-paint-old-houses" title="Interior Houses ONnly
-
-		The Leslieville House Pai">I Paint Old Houses</a>
-					</div>
-					<div class="col-md-2 col-xs-6">
-						<span class="distance text-warning" title="Distance"> &lt; 5 kms</span>
-					</div>
-					<div class="col-md-2 col-xs-6">
-						<time class="text-success" title="Posted on November 26, 2017 01:21:55" datetime="2017-11-26T13:21:55-05:00">1 week ago</time>
-					</div>
-				</div>
+			<div class="col-md-12 list-group">
+				<?php
+				for($i=0;$i<=5;$i++){
+				?>
+				<a class="list-group-item ad-container" href="#"><div class="row">
+						<div class="col-md-8 col-xs-12">
+						<span class="text-primary lead" href="/service/i-paint-old-houses" title="Interior Houses Only The Leslieville House Pai">I Paint Old Houses</span>
+						</div>
+						<div class="col-md-2 col-xs-6">
+							<span class="badge text-danger" title="Distance"> &lt; 5 kms</span>
+						</div>
+						<div class="col-md-2 col-xs-6">
+							<time class="text-muted badge" title="Posted on November 26, 2017 01:21:55" datetime="2017-11-26T13:21:55-05:00">1 week ago</time>
+						</div>
+					</div></a>
+				<?php
+				}
+				?>
 			</div>
 		</div>
 
