@@ -79,6 +79,11 @@
 
 		<div class="row-fluid bg-primary text-white text-center" id="sidebarCollapse"><a href="javascript:;" class="navbar-btn">Service Categories</a></div>
 
+		<h1>What is Helpaidca</h1>
+		<p>Also known as Paid Help is a marketplace where you can advertise (or search) service(s). Where you can search Paid Help for the service(s) you are looking for. So you help the people with your service and get paid.</p>
+
+		<div class="line"></div>
+
 		<h2 class="sub-header">Recent Ads</h2>
 		<div class="row-fluid clearfix">
 			<div class="col-md-12">
@@ -126,40 +131,69 @@
 
 		<div class="line"></div>
 
-		<h2>Lorem Ipsum Dolor</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<h2 class="sub-header">Featured Ads</h2>
+		<div class="row-fluid clearfix">
+			<div class="col-md-12">
+				<div class="row">
+					<div class="col-md-8 col-xs-12">
+						<a class="text-primary" href="/service/i-paint-old-houses" title="Interior Houses ONnly
 
-		<div class="line"></div>
+		The Leslieville House Pai">I Paint Old Houses</a>
+					</div>
+					<div class="col-md-2 col-xs-6">
+						<span class="distance text-warning" title="Distance"> &lt; 5 kms</span>
+					</div>
+					<div class="col-md-2 col-xs-6">
+						<time class="text-success" title="Posted on November 26, 2017 01:21:55" datetime="2017-11-26T13:21:55-05:00">1 week ago</time>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-xs-12">
+						<a class="text-primary" href="/service/i-paint-old-houses" title="Interior Houses ONnly
 
-		<h2>Lorem Ipsum Dolor</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		The Leslieville House Pai">I Paint Old Houses</a>
+					</div>
+					<div class="col-md-2 col-xs-6">
+						<span class="distance text-warning" title="Distance"> &lt; 5 kms</span>
+					</div>
+					<div class="col-md-2 col-xs-6">
+						<time class="text-success" title="Posted on November 26, 2017 01:21:55" datetime="2017-11-26T13:21:55-05:00">1 week ago</time>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-xs-12">
+						<a class="text-primary" href="/service/i-paint-old-houses" title="Interior Houses ONnly
 
-		<div class="line"></div>
+		The Leslieville House Pai">I Paint Old Houses</a>
+					</div>
+					<div class="col-md-2 col-xs-6">
+						<span class="distance text-warning" title="Distance"> &lt; 5 kms</span>
+					</div>
+					<div class="col-md-2 col-xs-6">
+						<time class="text-success" title="Posted on November 26, 2017 01:21:55" datetime="2017-11-26T13:21:55-05:00">1 week ago</time>
+					</div>
+				</div>
+			</div>
+		</div>
 
-		<h3>Lorem Ipsum Dolor</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	</div>
 
 	<div id="fade" class="hide"></div>
 </div>
 
+<div class="text-center">
+	&copy; 2017 Helpaid <br /> <a href="http://helpaid.ca/page/terms-of-use">Terms Of Use</a> | <a href="http://helpaid.ca/page/privacy-policy">Privacy Policy</a> | <a href="http://helpaid.ca/page/safety-tips">Safety Tips</a> | <a href="http://helpaid.ca/page/advertise-with-us">Advertise with us</a> | <a href="http://helpaid.ca/page/how-it-works">How it works</a> | <a href="http://helpaid.ca/page/service-posting-rules">Service Posting Rules</a> | <a href="http://helpaid.ca/page/help">Help</a> | <a href="http://helpaid.ca/page/contact-us">Contact Us</a>
+</div>
+<div class="text-center">
+	<a target="_blank" rel="nofollow" href="http://www.facebook.com/helpaid.ca">Follow us on Facebook</a> |
+	<a target="_blank" rel="nofollow" href="http://twitter.com/helpaidca">Follow us on Twitter</a>
+</div>
+<p>&nbsp;</p>
+
 <!-- jQuery CDN -->
 <script src="js/jquery.min.js"></script>
 <!-- Bootstrap Js CDN -->
 <script src="js/bootstrap.min.js"></script>
-
-<script type="text/javascript">
-	$(document).ready(function () {
-		$('#sidebarCollapse').on('click', function () {
-			$('#sidebar').toggleClass('active');
-			$(this).toggleClass('active');
-			$("#fade").toggleClass('hide');
-		});
-		$("#fade").click(function() {
-			$('#sidebar').toggleClass('active');
-			$("#fade").toggleClass('hide');
-		})
-	});
-</script>
+<script src="js/custom.js"></script>
 </body>
 </html>
