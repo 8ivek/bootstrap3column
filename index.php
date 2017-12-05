@@ -6,6 +6,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+	<link rel="manifest" href="images/favicons/manifest.json">
+	<link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
+
 	<title>Search or Advertise services near the city of Toronto - Helpaid</title>
 
 	<!-- Bootstrap CSS CDN -->
@@ -51,7 +58,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<h1 class="heading"><a class="navbar-brand" href="#">HELPAID</a></h1>
+					<h1 class="heading"><a class="navbar-brand" href="#"><img width="120" class="img-responsive" src="images/logo.jpg" alt="Helpaid : Help and get Paid" /></a></h1>
 				</div>
 
 				<div id="navbar" class="navbar-collapse collapse">
