@@ -31,6 +31,11 @@ a, a:hover, a:focus {
 	border: none;
 }
 
+.navbar-default .navbar-nav>li>a:hover{
+	background-color:#eeeeee;
+	border-radius:4px;
+}
+
 /* Image logo padding reduced */
 a.navbar-brand {
 	padding-top: 5px;
