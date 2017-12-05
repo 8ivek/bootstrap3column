@@ -84,7 +84,7 @@ a.ad-container{
 }
 
 #sidebar ul p {
-	color: #fff;
+	color: #ffffff;
 	padding: 10px;
 }
 
@@ -94,8 +94,8 @@ a.ad-container{
 	display: block;
 }
 #sidebar ul li a:hover {
-	color: #7386D5;
-	background: #fff;
+	color: #337ab7;
+	background: #ffffff;
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
