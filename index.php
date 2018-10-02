@@ -138,7 +138,7 @@
 </div>
 
 <div class="text-center">
-	&copy; 2017 Helpaid <br /> <a href="http://helpaid.ca/page/terms-of-use">Terms Of Use</a> | <a href="http://helpaid.ca/page/privacy-policy">Privacy Policy</a> | <a href="http://helpaid.ca/page/safety-tips">Safety Tips</a> | <a href="http://helpaid.ca/page/advertise-with-us">Advertise with us</a> | <a href="http://helpaid.ca/page/how-it-works">How it works</a> | <a href="http://helpaid.ca/page/service-posting-rules">Service Posting Rules</a> | <a href="http://helpaid.ca/page/help">Help</a> | <a href="http://helpaid.ca/page/contact-us">Contact Us</a>
+	&copy; 2018 Helpaid <br /> <a href="http://helpaid.ca/page/terms-of-use">Terms Of Use</a> | <a href="http://helpaid.ca/page/privacy-policy">Privacy Policy</a> | <a href="http://helpaid.ca/page/safety-tips">Safety Tips</a> | <a href="http://helpaid.ca/page/advertise-with-us">Advertise with us</a> | <a href="http://helpaid.ca/page/how-it-works">How it works</a> | <a href="http://helpaid.ca/page/service-posting-rules">Service Posting Rules</a> | <a href="http://helpaid.ca/page/help">Help</a> | <a href="http://helpaid.ca/page/contact-us">Contact Us</a>
 </div>
 <div class="text-center">
 	<a target="_blank" rel="nofollow" href="http://www.facebook.com/helpaid.ca">Follow us on Facebook</a> |
