@@ -134,7 +134,7 @@
 
 	</div>
 
-	<div id="fade" class="hide"></div>
+    <div id="fade" class="d-none"></div>
 </div>
 
 <div class="text-center">
